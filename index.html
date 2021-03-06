@@ -5,11 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Code Quiz</title>
+    
+
+    <link href= "style.css" rel="stylesheet" type= "text/css">
+    <script src = "assests/script.js" type="text/javascript"> </script>
+
+
 </head>
 <body>
-    <div class= "scores"> High Scores: <span id= "highScore">0</span></div>
+    <div id= "info">
+        <div class = "scores">
+            <a onclick="getScore()" href="#"><h3> Highscores</h3></a>
+        </div>
 
-    <div class= "timer">Time:  <span id ="time">0</span></div>
+    <div class= "timer"> <h3>Time:  <span id ="time">0</span>
+        
+    </h3></div>
     
 
     <div class= "main"></div>
@@ -17,16 +28,11 @@
     <div id="opening" class="start">
         <h1>Coding Quiz</h1>
         <p>Answer the following questions as fast as you can. Wrong answers will take away 10 seconds each.  </p>
-            <button id= "start"> Start </button>
+            <button onclick= "start()"> Start </button>
 
     </div>
 
-    <div id= "questions" class="hide">
-        <h2>Question <span id= "questionNumber">1</span></h2>
-            <div id= "choices" class= "choices"></div>
-
-    </div>
-
+    
 
 
 
