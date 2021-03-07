@@ -1,0 +1,38 @@
+
+#info{
+    background-color: coral;
+    background-size: 20px;
+
+
+}
+.scores {
+    font-family: 'Times New Roman', Times, serif;
+    float:right;
+    font-weight: bold;
+    color:aquamarine ;
+    padding-right: 115px;
+    
+}
+
+.timer
+{
+    font-size: x-large;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    padding-left: 115px;
+
+}
+
+#opening{
+    padding-left: 33%;
+    padding-top: 20px;
+    padding-right: 33%;
+    font-size: xx-large;
+    float:inline-end;
+    color:blue
+}
+
+body {
+    background-color: lightseagreen;
+}
