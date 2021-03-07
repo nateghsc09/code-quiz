@@ -142,7 +142,11 @@ function next() {
     }
 
     var quizContent = "<h2>" + questions[currentQuestion].title + "</h2>"
-
+// we are making a loop for the questions to be asked
+// the choice arrays become buttons
+// on the button click the Choice we click becomes the ANS
+// if the ANS is correct we run the correct function
+//if the ANS is incorrect we run the incorrect function
     for (var buttonLoop = 0; buttonLoop < questions[currentQuestion].choices.length; buttonLoop++) {
         var buttonCode = "<button onclick= [ANS]>[CHOICE]</button>";
         buttonCode = buttonCode.replace("[CHOICE]", questions[currentQuestion].choices[buttonLoop]);
@@ -151,6 +155,7 @@ function next() {
         } else {
             buttonCode = buttonCode.replace("[ANS]", "incorrect()");
         }
+        
         quizContent += buttonCode
     }
 
