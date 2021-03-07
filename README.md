@@ -12,5 +12,5 @@ The user can then play again to try and beat their high score.
 
 https://nateghsc09.github.io/code-quiz/
 
-![screenshot](.//assets/Screenshot.jpg)
+![screenshot](.//assets/screenshot.jpg)
 
