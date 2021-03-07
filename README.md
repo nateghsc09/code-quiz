@@ -2,7 +2,7 @@
 
 This app is a java script quiz
 
-The has a chacne to answer 5 mutliple choice questions and see how many they got right at the end. 
+The user has a chance to answer 5 mutliple choice questions and see how many they got right at the end. 
 
 If they answer a question incorrectly they will lose 10 seconds of time. 
 
